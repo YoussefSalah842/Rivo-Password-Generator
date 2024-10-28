@@ -61,7 +61,7 @@
             // 
             this.CopyTXT.Location = new System.Drawing.Point(247, 219);
             this.CopyTXT.Name = "CopyTXT";
-            this.CopyTXT.Size = new System.Drawing.Size(78, 23);
+            this.CopyTXT.Size = new System.Drawing.Size(88, 23);
             this.CopyTXT.TabIndex = 0;
             this.CopyTXT.Text = "Generate";
             this.CopyTXT.UseVisualStyleBackColor = true;
@@ -126,7 +126,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(9, 250);
+            this.label2.Location = new System.Drawing.Point(12, 250);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(78, 13);
             this.label2.TabIndex = 8;
@@ -238,6 +238,8 @@
             // 
             // button2
             // 
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.Location = new System.Drawing.Point(341, 245);
             this.button2.Name = "button2";

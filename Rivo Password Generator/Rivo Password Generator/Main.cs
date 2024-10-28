@@ -101,7 +101,7 @@ namespace Rivo_Password_Generator
 
         private void button3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Rivo Password Generator V1.6 developed by Youssef Salah", "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Rivo Password Generator V1.8 developed by Youssef Salah", "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
@@ -115,11 +115,6 @@ namespace Rivo_Password_Generator
             {
                     txtPassword.PasswordChar = '\0';
             }
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
