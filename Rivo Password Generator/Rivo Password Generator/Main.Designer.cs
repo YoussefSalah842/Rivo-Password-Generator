@@ -51,6 +51,7 @@
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.button3 = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -193,9 +194,9 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(9, 308);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(48, 13);
+            this.label5.Size = new System.Drawing.Size(54, 13);
             this.label5.TabIndex = 14;
-            this.label5.Text = "See also";
+            this.label5.Text = "See also -";
             // 
             // linkLabel3
             // 
@@ -269,11 +270,23 @@
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(61, 308);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(147, 13);
+            this.linkLabel1.TabIndex = 21;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Try New Password Manager !";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(393, 371);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -311,10 +324,6 @@
 
         private System.Windows.Forms.Button CopyTXT;
         private System.Windows.Forms.TextBox txtPassword;
-        private System.Windows.Forms.CheckBox chkLowerCase;
-        private System.Windows.Forms.CheckBox chkUpperCase;
-        private System.Windows.Forms.CheckBox chkNumeric;
-        private System.Windows.Forms.CheckBox chkSpecical;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;
@@ -331,6 +340,11 @@
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.LinkLabel linkLabel1;
+        public System.Windows.Forms.CheckBox chkLowerCase;
+        public System.Windows.Forms.CheckBox chkUpperCase;
+        public System.Windows.Forms.CheckBox chkNumeric;
+        public System.Windows.Forms.CheckBox chkSpecical;
     }
 }
 
